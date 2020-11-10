@@ -1,69 +1,69 @@
-# print("Question number Firest...")
+print("Question number Firest...")
 
-# empty_list=[]
-# for x in range(2):
+empty_list=[]
+for x in range(10):
     
-#     entry=int(input("enter your number:"))
-#     if (entry % 2==0):
-#         empty_list.append(entry)
+    entry=int(input("enter your number:"))
+    if (entry % 2==0):
+        empty_list.append(entry)
 
-# print("after getting 10 number from user:",empty_list)
-# print("there are:",len(empty_list),"even number present in the list")
+print("after getting 10 number from user:",empty_list)
+print("there are:",len(empty_list),"even number present in the list")
 
-# print()
-# print("Question number 2nd list comprehension...")
-# myname=[char  for char in "Vivek"]
-# print(myname)
+print()
+print("Question number 2nd list comprehension...")
+myname=[char  for char in "Vivek"]
+print(myname)
 
 
 
-# print()
-# print("quetion third  dictnory")
+print()
+print("quetion third  dictnory")
+mydict={}
+
+
+
+n=int(input("entery:"))
+squares={x:x*x for x in range(1,n+1)}
+print(squares) 
+
+
+print("using for loop")
 # mydict={}
+for k in range(4):
+    v=k*k
+    mydict[k]=v
+print(mydict)    
 
-
-
-# n=int(input("entery:"))
-# squares={x:x*x for x in range(1,n+1)}
-# print(squares) 
-
-
-# print("using for loop")
-# # mydict={}
-# for k in range(4):
-#     v=k*k
-#     mydict[k]=v
-# print(mydict)    
-
-# print("")
-# print("question no 4... ")
-# print("robot")
+print("")
+print("question no 4... ")
+print("robot")
 
 
 
 
-# # def walking():
-# #     iniit=0 
-# #     up=5 #5
-# #     down=3 #3
-# #     left=3 #3
-# #     right=2 #2
-# #     direction=input("enter direction U D L R:")
-# #     dist=int(input("steps uou wanted to go:"))
-# #     if direction=="u" or"U" and dist==5:
-# #         up=5
-# #         iniit+=up
-# #     elif direction=="d" or"D" and dist==3:
-# #         down=3
-# #         iniit-=down
-# #     elif direction=="L" or"l" and dist==3:
-# #         left=3
-# #         iniit-=3
-# #     elif direction=="r" or"R" and dist==2:
-# #         right=2
-# #         iniit+=2
-# #     print(iniit)
-# # walking()        
+def walking():
+    iniit=0 
+    up=5 #5
+    down=3 #3
+    left=3 #3
+    right=2 #2
+    direction=input("enter direction U D L R:")
+    dist=int(input("steps uou wanted to go:"))
+    if direction=="u" or"U" and dist==5:
+        up=5
+        iniit+=up
+    elif direction=="d" or"D" and dist==3:
+        down=3
+        iniit-=down
+    elif direction=="L" or"l" and dist==3:
+        left=3
+        iniit-=3
+    elif direction=="r" or"R" and dist==2:
+        right=2
+        iniit+=2
+    print(iniit)
+walking()        
 
 # iniit=0  
 # up=0 
